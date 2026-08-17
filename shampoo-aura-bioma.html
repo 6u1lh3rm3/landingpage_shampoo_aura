@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA BIOMA | Shampoo Bio-Detox Micelar</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            olive: '#2D3B2D',
+                            'olive-light': '#3D4F3D',
+                            sand: '#F4F1EA',
+                            'sand-dark': '#E8E2D5',
+                            gold: '#C5A059',
+                            'gold-hover': '#B08C46',
+                            charcoal: '#1A1A1A',
+                            muted: '#5A625A'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-brand-sand text-brand-charcoal font-sans antialiased selection:bg-brand-gold selection:text-white">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 bg-brand-sand/90 backdrop-blur-md border-b border-brand-olive/10 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="font-serif text-2xl sm:text-3xl font-bold tracking-wider text-brand-olive uppercase">
+                AURA BIOMA
+            </a>
+            
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm text-brand-olive">
+                <a href="#beneficios" class="hover:text-brand-gold transition-colors">Ativos</a>
+                <a href="#comparativo" class="hover:text-brand-gold transition-colors">Tecnologia Micelar</a>
+                <a href="#oferta" class="hover:text-brand-gold transition-colors">Kits</a>
+                <a href="#depoimentos" class="hover:text-brand-gold transition-colors">Avaliações</a>
+                <a href="#faq" class="hover:text-brand-gold transition-colors">Dúvidas</a>
+            </nav>
+
+            <a href="#oferta" class="inline-flex items-center justify-center bg-brand-olive text-brand-sand px-5 py-2.5 rounded-full font-semibold text-xs sm:text-sm tracking-wide hover:bg-brand-gold hover:text-white transition-all shadow-sm">
+                Garantir Lançamento
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Copy Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-brand-olive/10 border border-brand-olive/20 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest text-brand-olive">
+                        <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                        Novo Lançamento • Clean Beauty
+                    </div>
+
+                    <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold text-brand-olive leading-tight">
+                        Biotecnologia da Floresta, <span class="italic font-normal text-brand-gold">Proteção</span> para a Vida Urbana.
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-brand-muted max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        O primeiro **Shampoo Bio-Detox Micelar** que remove metais pesados, poluição e excesso de oleosidade acumulados no dia a dia da cidade, sem ressecar seus fios.
+                    </p>
+
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#oferta" class="w-full sm:w-auto text-center bg-brand-gold hover:bg-brand-gold-hover text-white px-8 py-4 rounded-full font-bold text-base tracking-wide shadow-lg transition-all transform hover:-translate-y-0.5">
+                            Garantir Oferta de Lançamento
+                        </a>
+                    </div>
+
+                    <!-- Trust Micro-copy -->
+                    <p class="text-xs text-brand-muted flex items-center justify-center lg:justify-start gap-4 pt-2">
+                        <span>✓ Frete Grátis no Kit Duo</span>
+                        <span>•</span>
+                        <span>✓ Envio Imediato</span>
+                        <span>•</span>
+                        <span>✓ Satisfação Garantida</span>
+                    </p>
+
+                    <!-- Trust Badges -->
+                    <div class="pt-8 border-t border-brand-olive/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                        <div class="p-2">
+                            <span class="block font-bold text-brand-olive text-sm sm:text-base">100% Vegano</span>
+                            <span class="text-xs text-brand-muted">Sem origem animal</span>
+                        </div>
+                        <div class="p-2">
+                            <span class="block font-bold text-brand-olive text-sm sm:text-base">Sem Sulfatos</span>
+                            <span class="text-xs text-brand-muted">Limpeza suave</span>
+                        </div>
+                        <div class="p-2">
+                            <span class="block font-bold text-brand-olive text-sm sm:text-base">Upcycling</span>
+                            <span class="text-xs text-brand-muted">Ingredientes circulares</span>
+                        </div>
+                        <div class="p-2">
+                            <span class="block font-bold text-brand-olive text-sm sm:text-base">Zero Plástico</span>
+                            <span class="text-xs text-brand-muted">Frasco de Alumínio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute -inset-4 rounded-3xl bg-brand-olive/10 rotate-2"></div>
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Shampoo Bio-Detox AURA BIOMA" class="relative rounded-2xl shadow-2xl object-cover w-full h-[450px] sm:h-[550px]" />
+                        
+                        <!-- Floating Badge -->
+                        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl border border-brand-sand-dark max-w-[200px] hidden sm:block">
+                            <p class="text-xs font-bold text-brand-olive uppercase tracking-wider">Fórmula Micelar</p>
+                            <p class="text-xs text-brand-muted mt-1">Atua como um ímã capturando impurezas sem retirar a hidratação natural.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ATIVOS / INGREDIENTES SECTION -->
+    <section id="beneficios" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3">Ativos de Alta Alta Performance</h2>
+                <p class="font-serif text-3xl sm:text-4xl font-bold text-brand-olive">Poder botânico impulsionado pela ciência</p>
+                <p class="text-brand-muted mt-4">Nossa fórmula combina a riqueza biodiversa da Amazônia com ativos dermocosméticos consagrados.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-brand-sand/50 p-8 rounded-2xl border border-brand-sand-dark/60 hover:shadow-md transition-all">
+                    <div class="w-12 h-12 bg-brand-olive text-brand-sand rounded-xl flex items-center justify-center font-serif text-xl font-bold mb-6">01</div>
+                    <h3 class="font-serif text-xl font-bold text-brand-olive mb-3">Murumuru Upcycled</h3>
+                    <p class="text-sm text-brand-muted leading-relaxed">
+                        Resgatado da cadeia alimentar sustentável, nutre profundamente a fibra capilar sem deixar o cabelo pesado, devolvendo a elasticidade e o movimento natural.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-brand-sand/50 p-8 rounded-2xl border border-brand-sand-dark/60 hover:shadow-md transition-all">
+                    <div class="w-12 h-12 bg-brand-olive text-brand-sand rounded-xl flex items-center justify-center font-serif text-xl font-bold mb-6">02</div>
+                    <h3 class="font-serif text-xl font-bold text-brand-olive mb-3">Niacinamida Botânica 5%</h3>
+                    <p class="text-sm text-brand-muted leading-relaxed">
+                        Fortalece a barreira de proteção do couro cabeludo, reduz incômodos causados pelo estresse urbano e regula o excesso de oleosidade ao longo do dia.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-brand-sand/50 p-8 rounded-2xl border border-brand-sand-dark/60 hover:shadow-md transition-all">
+                    <div class="w-12 h-12 bg-brand-olive text-brand-sand rounded-xl flex items-center justify-center font-serif text-xl font-bold mb-6">03</div>
+                    <h3 class="font-serif text-xl font-bold text-brand-olive mb-3">Complexo Quelante Micelar</h3>
+                    <p class="text-sm text-brand-muted leading-relaxed">
+                        Sinergia entre Chá Verde e Carvão Ativado Vegetal que se conecta a metais pesados, cloro e partículas invisíveis de fumaça, removendo-os do fio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEMA VS SOLUÇÃO -->
+    <section id="comparativo" class="py-20 bg-brand-sand">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3">A Ciência da Proteção</h2>
+                <p class="font-serif text-3xl sm:text-4xl font-bold text-brand-olive">Sua Rotina Urbana vs. AURA BIOMA</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Problema -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-red-800/40">
+                    <h3 class="font-bold text-lg text-brand-charcoal mb-4 flex items-center gap-2">
+                        <span class="text-red-700">✕</span> Sem a Proteção Bio-Detox
+                    </h3>
+                    <ul class="space-y-3 text-sm text-brand-muted">
+                        <li class="flex items-start gap-2">
+                            <span>•</span> Acúmulo invisível de metais pesados da poluição do ar.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span>•</span> Couro cabeludo sufocado, acelerando a oleosidade e a opacidade.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span>•</span> Danos contínuos à fibra capilar que deixam o fio rígido e quebradiço.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span>•</span> Shampoos tradicionais com sulfato que ressecam e agridem as pontas.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Solução -->
+                <div class="bg-brand-olive text-brand-sand p-8 rounded-2xl shadow-md border-l-4 border-brand-gold">
+                    <h3 class="font-bold text-lg text-white mb-4 flex items-center gap-2">
+                        <span class="text-brand-gold">✓</span> Com AURA BIOMA
+                    </h3>
+                    <ul class="space-y-3 text-sm text-brand-sand/80">
+                        <li class="flex items-start gap-2">
+                            <span class="text-brand-gold">•</span> Varredura micelar profunda sem agressão à barreira natural.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-brand-gold">•</span> Equilíbrio da oleosidade com a ação calmante da Niacinamida 5%.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-brand-gold">•</span> Fios extremamente leves, macios e com brilho espelhado natural.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-brand-gold">•</span> Experiência sensorial de aromaterapia com óleos essenciais puros.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE OFERTAS (PRICING) -->
+    <section id="oferta" class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-gold/10 text-brand-gold text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest inline-block mb-3">Lançamento Exclusivo</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-olive">Escolha o Seu Ritual Bio-Detox</h2>
+                <p class="text-brand-muted mt-3">Aproveite as condições especiais do primeiro lote de produção.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+                
+                <!-- Card 1: Avulso -->
+                <div class="bg-brand-sand/40 border border-brand-sand-dark p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-serif text-xl font-bold text-brand-olive">Shampoo Bio-Detox</h3>
+                        <p class="text-xs text-brand-muted mt-1">Frasco Alumínio Reciclado (300ml)</p>
+                        
+                        <div class="my-6">
+                            <span class="text-3xl font-bold text-brand-olive">R$ 68,00</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-brand-muted mb-8">
+                            <li class="flex items-center gap-2">✓ Frasco com válvula pump reaproveitável</li>
+                            <li class="flex items-center gap-2">✓ Fórmula concentrada</li>
+                            <li class="flex items-center gap-2">✓ Ideal para testar a experiência</li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="block text-center bg-brand-olive text-brand-sand font-bold py-3 px-6 rounded-full text-sm hover:bg-brand-olive-light transition-colors">
+                        Comprar Unidade
+                    </a>
+                </div>
+
+                <!-- Card 2: DESTAQUE KIT DUO -->
+                <div class="bg-brand-olive text-brand-sand border-2 border-brand-gold p-8 rounded-2xl flex flex-col justify-between relative shadow-xl transform md:-translate-y-2">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-gold text-white text-[10px] font-bold uppercase tracking-widest py-1 px-4 rounded-full shadow">
+                        Mais Vendido • Economize R$ 17
+                    </div>
+
+                    <div>
+                        <h3 class="font-serif text-2xl font-bold text-white mt-2">Kit Duo Inicial</h3>
+                        <p class="text-xs text-brand-sand/70 mt-1">Shampoo (300ml) + Refil Eco-Sachê (300ml)</p>
+                        
+                        <div class="my-6">
+                            <span class="text-xs text-brand-sand/60 line-through block">De R$ 116,00 por</span>
+                            <span class="text-4xl font-bold text-brand-gold">R$ 99,00</span>
+                            <span class="text-xs text-brand-sand/80 block mt-1">ou 3x de R$ 33,00 sem juros</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-brand-sand/90 mb-8">
+                            <li class="flex items-center gap-2"><span class="text-brand-gold">✓</span> <strong>Frete Grátis para todo o Brasil</strong></li>
+                            <li class="flex items-center gap-2"><span class="text-brand-gold">✓</span> 600ml de tratamento completo</li>
+                            <li class="flex items-center gap-2"><span class="text-brand-gold">✓</span> Economia imediata e impacto sustentável</li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="block text-center bg-brand-gold text-white font-bold py-4 px-6 rounded-full text-sm hover:bg-brand-gold-hover transition-colors shadow-md">
+                        Garantir Kit Duo com Frete Grátis
+                    </a>
+                </div>
+
+                <!-- Card 3: Assinatura -->
+                <div class="bg-brand-sand/40 border border-brand-sand-dark p-8 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="inline-block bg-brand-olive/10 text-brand-olive text-[10px] font-bold px-2 py-0.5 rounded mb-2">Recorrência Consciente</div>
+                        <h3 class="font-serif text-xl font-bold text-brand-olive">Assinatura Refil</h3>
+                        <p class="text-xs text-brand-muted mt-1">Eco-Sachê Compostável (300ml)</p>
+                        
+                        <div class="my-6">
+                            <span class="text-3xl font-bold text-brand-olive">R$ 40,80</span>
+                            <span class="text-xs text-brand-muted block mt-1">/mês (15% OFF no refil)</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-brand-muted mb-8">
+                            <li class="flex items-center gap-2">✓ Receba em casa na frequência desejada</li>
+                            <li class="flex items-center gap-2">✓ Cancele ou pause quando quiser</li>
+                            <li class="flex items-center gap-2">✓ Embalagem 100% compostável</li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="block text-center border border-brand-olive text-brand-olive font-bold py-3 px-6 rounded-full text-sm hover:bg-brand-olive hover:text-white transition-colors">
+                        Assinar com 15% OFF
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS (UGC / PROVA SOCIAL) -->
+    <section id="depoimentos" class="py-20 bg-brand-sand">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3">Opinião de Quem Usou</h2>
+                <p class="font-serif text-3xl sm:text-4xl font-bold text-brand-olive">Experiências Reais na Rotina Urbana</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Avaliação 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-brand-sand-dark flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-gold mb-3">★★★★★</div>
+                        <p class="text-xs sm:text-sm text-brand-muted italic leading-relaxed">
+                            "Moro no centro de São Paulo e meu cabelo sempre ficava pesado até o meio do dia. No primeiro uso do Bio-Detox senti a raiz solta e leve por muito mais tempo. O aroma de capim-limão é maravilhoso!"
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-brand-sand flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-brand-olive text-white flex items-center justify-center font-bold text-xs">CS</div>
+                        <div>
+                            <p class="text-xs font-bold text-brand-olive">Camila S.</p>
+                            <p class="text-[10px] text-brand-muted">Cliente Verificada • São Paulo/SP</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Avaliação 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-brand-sand-dark flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-gold mb-3">★★★★★</div>
+                        <p class="text-xs sm:text-sm text-brand-muted italic leading-relaxed">
+                            "Sempre tive receio de shampoo sem sulfato por achar que não limpava bem. O AURA BIOMA faz uma espuma super cremosa e o frasco de alumínio ficou lindo no banheiro."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-brand-sand flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-brand-olive text-white flex items-center justify-center font-bold text-xs">RF</div>
+                        <div>
+                            <p class="text-xs font-bold text-brand-olive">Rafael F.</p>
+                            <p class="text-[10px] text-brand-muted">Cliente Verificado • Curitiba/PR</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Avaliação 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-brand-sand-dark flex flex-col justify-between">
+                    <div>
+                        <div class="text-brand-gold mb-3">★★★★★</div>
+                        <p class="text-xs sm:text-sm text-brand-muted italic leading-relaxed">
+                            "Incrível como o refil em sachê funciona fácil. A proposta sustentável associada a um produto de alta qualidade me ganhou de primeira. Não troco mais."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-brand-sand flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-brand-olive text-white flex items-center justify-center font-bold text-xs">MA</div>
+                        <div>
+                            <p class="text-xs font-bold text-brand-olive">Mariana A.</p>
+                            <p class="text-[10px] text-brand-muted">Cliente Verificada • Rio de Janeiro/RJ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ INTERATIVO -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3">Transparência Total</h2>
+                <p class="font-serif text-3xl sm:text-4xl font-bold text-brand-olive">Perguntas Frequentes</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Item 1 -->
+                <div class="border border-brand-sand-dark rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full text-left px-6 py-4 bg-brand-sand/30 hover:bg-brand-sand/60 flex justify-between items-center transition-colors font-bold text-brand-olive text-sm sm:text-base">
+                        <span>Shampoo sem sulfato faz espuma?</span>
+                        <span class="faq-icon transition-transform duration-300 text-brand-gold">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 bg-white text-xs sm:text-sm text-brand-muted leading-relaxed">
+                        Sim! Utilizamos surfactantes suaves derivados do coco que produzem uma espuma densa e cremosa, limpando profundamente sem remover a proteção labial e lipídica natural dos fios.
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="border border-brand-sand-dark rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full text-left px-6 py-4 bg-brand-sand/30 hover:bg-brand-sand/60 flex justify-between items-center transition-colors font-bold text-brand-olive text-sm sm:text-base">
+                        <span>Serve para qual tipo de cabelo?</span>
+                        <span class="faq-icon transition-transform duration-300 text-brand-gold">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 bg-white text-xs sm:text-sm text-brand-muted leading-relaxed">
+                        O Shampoo Bio-Detox Micelar é formulado de forma equilibrada para todos os tipos de cabelo (lisos, ondulados, cacheados e crespos), especialmente para quem vive em ambientes urbanos e busca controle de oleosidade e purificação do couro cabeludo.
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="border border-brand-sand-dark rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full text-left px-6 py-4 bg-brand-sand/30 hover:bg-brand-sand/60 flex justify-between items-center transition-colors font-bold text-brand-olive text-sm sm:text-base">
+                        <span>Como funciona o refil eco-sachê?</span>
+                        <span class="faq-icon transition-transform duration-300 text-brand-gold">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 bg-white text-xs sm:text-sm text-brand-muted leading-relaxed">
+                        Você adquire o frasco de alumínio na primeira compra e, nos meses seguintes, compra apenas o nosso sachê de refil compostável. Basta higienizar o frasco com água morna e abastecê-lo.
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="border border-brand-sand-dark rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full text-left px-6 py-4 bg-brand-sand/30 hover:bg-brand-sand/60 flex justify-between items-center transition-colors font-bold text-brand-olive text-sm sm:text-base">
+                        <span>Em quanto tempo vejo os resultados?</span>
+                        <span class="faq-icon transition-transform duration-300 text-brand-gold">▼</span>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 bg-white text-xs sm:text-sm text-brand-muted leading-relaxed">
+                        A sensação de leveza e limpeza profunda é imediata desde o primeiro uso. O fortalecimento do couro cabeludo e o equilíbrio da oleosidade tornam-se progressivos após 7 a 14 dias de uso contínuo.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-olive text-brand-sand py-12 border-t border-brand-olive-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <span class="font-serif text-2xl font-bold tracking-wider text-white uppercase block mb-3">AURA BIOMA</span>
+                    <p class="text-xs text-brand-sand/70 leading-relaxed">
+                        Biotecnologia da Floresta, Proteção para a Vida Urbana. Beleza limpa, sustentável e eficiente.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3">Navegação</h4>
+                    <ul class="space-y-2 text-xs text-brand-sand/80">
+                        <li><a href="#beneficios" class="hover:text-white transition-colors">Ativos</a></li>
+                        <li><a href="#comparativo" class="hover:text-white transition-colors">Tecnologia</a></li>
+                        <li><a href="#oferta" class="hover:text-white transition-colors">Kits e Preços</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3">Compromisso</h4>
+                    <ul class="space-y-2 text-xs text-brand-sand/80">
+                        <li>✓ 100% Vegano e Cruelty-Free</li>
+                        <li>✓ Upcycling Certificado</li>
+                        <li>✓ Embalagem Reciclável</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3">Atendimento</h4>
+                    <p class="text-xs text-brand-sand/80">contato@aurabioma.com.br</p>
+                    <p class="text-xs text-brand-sand/80 mt-1">Segunda a Sexta, 9h às 18h</p>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-brand-sand/10 text-center text-[10px] text-brand-sand/60">
+                <p>&copy; 2026 AURA BIOMA Cosméticos Naturais e Biotecnologia S.A. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- VANILLA JS FOR ACCORDION -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggles = document.querySelectorAll('.faq-toggle');
+            
+            toggles.forEach(toggle => {
+                toggle.addEventListener('click', () => {
+                    const content = toggle.nextElementSibling;
+                    const icon = toggle.querySelector('.faq-icon');
+                    
+                    // Close other opened FAQs
+                    document.querySelectorAll('.faq-content').forEach(item => {
+                        if (item !== content) {
+                            item.classList.add('hidden');
+                        }
+                    });
+
+                    document.querySelectorAll('.faq-icon').forEach(i => {
+                        if (i !== icon) {
+                            i.classList.remove('rotate-180');
+                        }
+                    });
+
+                    // Toggle current FAQ
+                    content.classList.toggle('hidden');
+                    icon.classList.toggle('rotate-180');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
